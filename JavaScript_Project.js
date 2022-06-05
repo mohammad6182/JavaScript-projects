@@ -1,2 +1,4 @@
-windows.alert('Hello World!');
-document.write('Hello World!');
+var B="This is for test Only";
+document.write(B);
+
+
