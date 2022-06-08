@@ -1,3 +1,11 @@
+console.log(6+1);
+console.log(9>98);
+document.write(6>2);
+document.write(5<1);
+
+document.write("john" == 9);
+document.write( 8==8 && 14===89);   //this line is containing the AND and = operators
+
 var A= 12;
 A--;
 document.write(A);
