@@ -10,3 +10,13 @@ function New_and_This() {
     New= document.getElementById('New_and_This').Value;
     
 }
+
+function Nested_Function() {
+    document.getElementById('DOB').innerHTML = Age();
+    function Age () {
+        var Age = 18;
+        function year_birth() { Age = 2004;}
+        year_birth();
+        return Age;  
+    }
+}
