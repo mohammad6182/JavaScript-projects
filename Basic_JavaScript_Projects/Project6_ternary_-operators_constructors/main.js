@@ -20,3 +20,8 @@ function Nested_Function() {
         return Age;  
     }
 }
+
+function User() {
+    this.name = "John";
+}
+var User = new User();
