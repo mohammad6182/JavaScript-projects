@@ -19,3 +19,9 @@ function dividend() {
     document.getElementById('Math_3').innerHTML = '19 - 3 =' + dividend_1;
 }
 
+
+function increment() {
+    var increment_1 = 3;
+increment_1++;
+document.getElementById('Math_4').innerHTML='3++' + increment_1;
+}
