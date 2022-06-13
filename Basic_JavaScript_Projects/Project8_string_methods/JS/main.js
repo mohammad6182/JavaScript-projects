@@ -6,3 +6,9 @@ function complete_formula() {
     var full_formula = step_1.concat(step_2,step_3,step_4);
     document.getElementById('concat').innerHTML= full_formula;
 }
+
+function some_of_it() {
+    var sentene = "Mike had no friends since he wasnt from rich family";
+    var part= sentene.slice(12,19);
+    document.getElementById("short").innerHTML= part;
+}
