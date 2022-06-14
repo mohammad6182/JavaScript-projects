@@ -12,3 +12,8 @@ function some_of_it() {
     var part= sentene.slice(12,19);
     document.getElementById("short").innerHTML= part;
 }
+
+function string_method() {
+    var z=1362;
+    document.getElementById(numbers2string).innerHTML=z.numbers2String();
+}
