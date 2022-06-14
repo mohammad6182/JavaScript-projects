@@ -30,3 +30,7 @@ function mod () {
     var mod_1 = 10%3;
     document.getElementById('Math_5').innerHTML='10 % 3 ='+mod_1;
 }
+
+function Ran () {
+    return Math.floor(Math.random() * max)+ 1;
+}
