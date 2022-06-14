@@ -26,3 +26,7 @@ increment_1++;
 document.getElementById('Math_4').innerHTML='3++' + increment_1;
 }
 
+function mod () {
+    var mod_1 = 10%3;
+    document.getElementById('Math_5').innerHTML='10 % 3 ='+mod_1;
+}
