@@ -17,7 +17,7 @@ function string_method() {
     var z=1362;
     document.getElementById(numbers2string).innerHTML=z.numbers2String();
 }
-
+//my toPrecision code, can help on math programming for example for π //
 function my_number() {
     var a = 14825.1102569874;
     document.getElementById('precision').innerHTML= a.toPrecision(7);
