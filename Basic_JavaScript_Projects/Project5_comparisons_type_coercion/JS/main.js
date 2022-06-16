@@ -4,7 +4,12 @@ document.write(6>2);
 document.write(5<1);
 
 document.write("john" == 9);
-document.write( 8==8 && 14===89);   //this line is containing the AND and = operators
+document.write( 8==8 && 14==='14');   //this line is containing the AND and = operators
+
+document.write(14==='14');// this is going to be checked for type and the value
+document.write(14=='14');//this is going to be check for value not type
+
+
 var x= 5;
 var y=9;
 
