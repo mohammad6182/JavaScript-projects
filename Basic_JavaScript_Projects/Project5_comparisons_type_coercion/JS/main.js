@@ -5,6 +5,10 @@ document.write(5<1);
 
 document.write("john" == 9);
 document.write( 8==8 && 14===89);   //this line is containing the AND and = operators
+var x= 5;
+var y=9;
+
+
 document.write( x == 5 || y == 5);
 
 const a= 3;
