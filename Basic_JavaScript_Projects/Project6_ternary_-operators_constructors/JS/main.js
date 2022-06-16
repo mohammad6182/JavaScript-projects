@@ -5,11 +5,10 @@ function Ride_Function() {
     document.getElementById('Ride').innerHTML = Can_ride + " to ride";
 }
 
-function New_and_This() {
-    var New, and, This;
-    New= document.getElementById('New_and_This').Value;
-    
-}
+function Vehicle(Make, Model, Year, Color)//see page 132
+
+
+
 // My nested Function, The Minimum age to get ride is 18. The starting year will be 2004 or older//
 
 function Nested_Function() {
