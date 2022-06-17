@@ -17,3 +17,12 @@ function for_Loop() {
     }
     document.getElementById("List_of_Colors").innerHTML=favorit;
 }
+
+function array_Function() {
+    var array_1 = [];
+    array_1[0]= "Chicago";
+    array_1[1]="Portland";
+    array_1[2]="La";
+    array_1[3]="New York";
+    document.getElementById('Array').innerHTML= array_1[1]+" is the rainiest city in northwest"+'.';
+}
