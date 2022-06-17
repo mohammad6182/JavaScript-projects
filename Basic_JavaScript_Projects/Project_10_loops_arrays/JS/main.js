@@ -7,3 +7,13 @@ function Call_Loop () {
     }
     document.getElementById('Loop').innerHTML=month;
 }
+
+var Colors = ["Red", "Blue","Pink", "Yellow"]
+var favorit ="";
+var T;
+function for_Loop() {
+    for (T = 0; T<Colors.length; T++) {
+        favorit += Colors[T] + "<br>";
+    }
+    document.getElementById("List_of_Colors").innerHTML=favorit;
+}
