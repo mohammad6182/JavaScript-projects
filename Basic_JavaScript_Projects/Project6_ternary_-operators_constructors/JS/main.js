@@ -32,8 +32,3 @@ function Nested_Function() {
         return Age;  
     }
 }
-// Waiting for VIP customer, asking for name , if name is John , he is our VIP//
-function User() {
-    this.name = "John";
-}
-var User = new User();
